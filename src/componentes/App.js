@@ -1,6 +1,7 @@
+
 import { Platform, SafeAreaView, StatusBar, StyleSheet } from 'react-native';
-import theme from './src/theme';
-import Main from './src/Main';
+import theme from './src/components/theme';
+import Main from './src/components/Main';
 import { useFonts } from 'expo-font';
 import { useCallback } from 'react';
 import * as SplashScreen from 'expo-splash-screen';
@@ -15,7 +16,11 @@ export default function App() {
     'Pixel': require('./assets/fonts/PixelifySans-VariableFont_wght.ttf'),
     'Ubuntu': require('./assets/fonts/Ubuntu-Regular.ttf')
   },
+
   );
+
+  console.log('Fonts loaded:', fontsLoaded);
+  console.log('Font error:', fontError);
 
   const onLayoutRootView = useCallback(async () => {
     if (fontsLoaded || fontError) {
@@ -43,5 +48,12 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     marginTop: Platform.OS === 'android' ? (StatusBar.currentHeight) & (StatusBar.setBackgroundColor(theme.bgColors['bg-100'])) : 0,
     backgroundColor: Platform.OS === 'android' ? (StatusBar.setBackgroundColor(theme.bgColors['bg-100'])) : "",
-  }
-})
+    fontFamily: 'Fuzzy',
+
+  },
+
+
+
+
+}
+)
