@@ -11,8 +11,7 @@ export default function App() {
   SplashScreen.preventAutoHideAsync();
 
   const [fontsLoaded, fontError] = useFonts({
-    'Fuzzy': require('./assets/fonts/FuzzyBubbles.ttf'),
-    'Pixel': require('./assets/fonts/PixelifySans-VariableFont_wght.ttf'),
+    'UbuntuBold': require('./assets/fonts/Ubuntu-Bold.ttf'),
     'Ubuntu': require('./assets/fonts/Ubuntu-Regular.ttf')
   },
   );

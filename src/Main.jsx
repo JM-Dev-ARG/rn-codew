@@ -1,7 +1,10 @@
-import { StyleSheet, Text, View } from 'react-native'
+import { SafeAreaView, StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 import theme from './theme'
-import Form from './componentes/Form'
+import Login from './componentes/Login'
+import Register from './componentes/Register'
+import Navigation from './Navigation/Navigation'
+import RegisterPhoto from './componentes/RegisterPhoto'
 
 
 
@@ -10,9 +13,12 @@ export default function Main() {
 
 
     return (
-        <View style={styles.container} >
-            <Form />
-        </View>
+
+        <SafeAreaView style={styles.container}>
+            <Navigation>
+
+            </Navigation>
+        </SafeAreaView>
     )
 }
 

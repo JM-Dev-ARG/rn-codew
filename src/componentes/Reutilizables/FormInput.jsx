@@ -1,6 +1,6 @@
 import { StyleSheet, View } from 'react-native'
 import React from 'react'
-import theme from '../theme'
+import theme from '../../theme'
 import { TextInput } from 'react-native-paper'
 
 
@@ -30,10 +30,10 @@ const FormInput = ({ placeholder, setValueProp, mode }) => {
 export default FormInput
 
 const styles = StyleSheet.create({
+
     input: {
         backgroundColor: theme.bgColors['bg-100'],
         width: '100%',
-        fontFamily: 'Fuzzy'
     },
 
 })
