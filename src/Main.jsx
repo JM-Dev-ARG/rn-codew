@@ -15,9 +15,7 @@ export default function Main() {
     return (
 
         <SafeAreaView style={styles.container}>
-            <Navigation>
-
-            </Navigation>
+            <Navigation />
         </SafeAreaView>
     )
 }
