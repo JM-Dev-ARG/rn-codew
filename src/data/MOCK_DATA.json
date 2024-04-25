@@ -1,0 +1,101 @@
+[
+    {
+        "id": 1,
+        "Nombre": "Sigfried",
+        "Apellido": "Pulford",
+        "UserName": "spulford0",
+        "Email": "spulford0@histats.com",
+        "Dni": "131-40-1720",
+        "Password": "xN2{r{*"
+    },
+    {
+        "id": 2,
+        "Nombre": "Haroun",
+        "Apellido": "Cicutto",
+        "UserName": "hcicutto1",
+        "Email": "hcicutto1@google.cn",
+        "Dni": "741-48-2766",
+        "Password": "nH6~nc8TpUtTj&T0"
+    },
+    {
+        "id": 3,
+        "Nombre": "Boycie",
+        "Apellido": "Stoddard",
+        "UserName": "bstoddard2",
+        "Email": "bstoddard2@reddit.com",
+        "Dni": "851-42-4796",
+        "Password": "dW7`_hzEAP\"|6k/Y"
+    },
+    {
+        "id": 4,
+        "Nombre": "Archibaldo",
+        "Apellido": "Antoni",
+        "UserName": "aantoni3",
+        "Email": "aantoni3@ca.gov",
+        "Dni": "372-87-2358",
+        "Password": "aZ2>thkRg&V)ex"
+    },
+    {
+        "id": 5,
+        "Nombre": "Jarib",
+        "Apellido": "Rayson",
+        "UserName": "jrayson4",
+        "Email": "jrayson4@illinois.edu",
+        "Dni": "697-10-6173",
+        "Password": "uH8@PRfJ|Q5dDP"
+    },
+    {
+        "id": 6,
+        "Nombre": "Pearce",
+        "Apellido": "Kennelly",
+        "UserName": "pkennelly5",
+        "Email": "pkennelly5@foxnews.com",
+        "Dni": "810-34-7266",
+        "Password": "mW7\\u6sz/"
+    },
+    {
+        "id": 7,
+        "Nombre": "Nixie",
+        "Apellido": "McInteer",
+        "UserName": "nmcinteer6",
+        "Email": "nmcinteer6@rakuten.co.jp",
+        "Dni": "650-90-7259",
+        "Password": "zR5,k0#c\\"
+    },
+    {
+        "id": 8,
+        "Nombre": "Erika",
+        "Apellido": "Alyukin",
+        "UserName": "ealyukin7",
+        "Email": "ealyukin7@biblegateway.com",
+        "Dni": "507-83-3024",
+        "Password": "iM7_TdP5"
+    },
+    {
+        "id": 9,
+        "Nombre": "Saba",
+        "Apellido": "Olfert",
+        "UserName": "solfert8",
+        "Email": "solfert8@hexun.com",
+        "Dni": "889-97-8832",
+        "Password": "iL0<k9J\\?Y!\"6#"
+    },
+    {
+        "id": 10,
+        "Nombre": "Nyssa",
+        "Apellido": "Samart",
+        "UserName": "nsamart9",
+        "Email": "nsamart9@google.de",
+        "Dni": "250-36-8567",
+        "Password": "bX5/tw\\s79tN6|l"
+    },
+    {
+        "id": 11,
+        "Nombre": "Sigfried",
+        "Apellido": "Pulford",
+        "UserName": "1",
+        "Email": "spulford0@histats.com",
+        "Dni": "131-40-1720",
+        "Password": "1"
+    }
+]

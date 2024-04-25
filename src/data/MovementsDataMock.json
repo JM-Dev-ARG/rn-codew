@@ -1,0 +1,182 @@
+[
+    {
+        "type": "Deposito",
+        "ammount": 5000,
+        "date": "20/03/2024",
+        "img": "https://firebasestorage.googleapis.com/v0/b/rn-coder-c0251.appspot.com/o/bandera.webp?alt=media&token=39f5a0e8-3960-4b5d-8e61-4da49d2cac36"
+    },
+    {
+        "type": "Retiro",
+        "ammount": 1500,
+        "date": "12/02/2024",
+        "img": "https://firebasestorage.googleapis.com/v0/b/rn-coder-c0251.appspot.com/o/bandera.webp?alt=media&token=39f5a0e8-3960-4b5d-8e61-4da49d2cac36"
+    },
+    {
+        "type": "Compra de Crypto",
+        "ammount": 250,
+        "date": "05/04/2024",
+        "img": "https://firebasestorage.googleapis.com/v0/b/rn-coder-c0251.appspot.com/o/crypto.webp?alt=media&token=664fbb72-914a-49bf-ad64-7a9edbf0cd70"
+    },
+    {
+        "type": "Venta de Crypto",
+        "ammount": 1000,
+        "date": "10/01/2024",
+        "img": "https://firebasestorage.googleapis.com/v0/b/rn-coder-c0251.appspot.com/o/crypto.webp?alt=media&token=664fbb72-914a-49bf-ad64-7a9edbf0cd70"
+    },
+    {
+        "type": "Deposito",
+        "ammount": 700,
+        "date": "15/03/2024",
+        "img": "https://firebasestorage.googleapis.com/v0/b/rn-coder-c0251.appspot.com/o/bandera.webp?alt=media&token=39f5a0e8-3960-4b5d-8e61-4da49d2cac36"
+    },
+    {
+        "type": "Retiro",
+        "ammount": 2000,
+        "date": "28/02/2024",
+        "img": "https://firebasestorage.googleapis.com/v0/b/rn-coder-c0251.appspot.com/o/bandera.webp?alt=media&token=39f5a0e8-3960-4b5d-8e61-4da49d2cac36"
+    },
+    {
+        "type": "Compra de Crypto",
+        "ammount": 800,
+        "date": "09/04/2024",
+        "img": "https://firebasestorage.googleapis.com/v0/b/rn-coder-c0251.appspot.com/o/crypto.webp?alt=media&token=664fbb72-914a-49bf-ad64-7a9edbf0cd70"
+    },
+    {
+        "type": "Venta de Crypto",
+        "ammount": 300,
+        "date": "02/01/2024",
+        "img": "https://firebasestorage.googleapis.com/v0/b/rn-coder-c0251.appspot.com/o/crypto.webp?alt=media&token=664fbb72-914a-49bf-ad64-7a9edbf0cd70"
+    },
+    {
+        "type": "Deposito",
+        "ammount": 4500,
+        "date": "07/03/2024",
+        "img": "https://firebasestorage.googleapis.com/v0/b/rn-coder-c0251.appspot.com/o/bandera.webp?alt=media&token=39f5a0e8-3960-4b5d-8e61-4da49d2cac36"
+    },
+    {
+        "type": "Retiro",
+        "ammount": 1000,
+        "date": "19/02/2024",
+        "img": "https://firebasestorage.googleapis.com/v0/b/rn-coder-c0251.appspot.com/o/bandera.webp?alt=media&token=39f5a0e8-3960-4b5d-8e61-4da49d2cac36"
+    },
+    {
+        "type": "Compra de Crypto",
+        "ammount": 700,
+        "date": "15/04/2024",
+        "img": "https://firebasestorage.googleapis.com/v0/b/rn-coder-c0251.appspot.com/o/crypto.webp?alt=media&token=664fbb72-914a-49bf-ad64-7a9edbf0cd70"
+    },
+    {
+        "type": "Venta de Crypto",
+        "ammount": 1500,
+        "date": "20/01/2024",
+        "img": "https://firebasestorage.googleapis.com/v0/b/rn-coder-c0251.appspot.com/o/crypto.webp?alt=media&token=664fbb72-914a-49bf-ad64-7a9edbf0cd70"
+    },
+    {
+        "type": "Deposito",
+        "ammount": 2500,
+        "date": "30/03/2024",
+        "img": "https://firebasestorage.googleapis.com/v0/b/rn-coder-c0251.appspot.com/o/bandera.webp?alt=media&token=39f5a0e8-3960-4b5d-8e61-4da49d2cac36"
+    },
+    {
+        "type": "Retiro",
+        "ammount": 500,
+        "date": "21/02/2024",
+        "img": "https://firebasestorage.googleapis.com/v0/b/rn-coder-c0251.appspot.com/o/bandera.webp?alt=media&token=39f5a0e8-3960-4b5d-8e61-4da49d2cac36"
+    },
+    {
+        "type": "Compra de Crypto",
+        "ammount": 1200,
+        "date": "25/04/2024",
+        "img": "https://firebasestorage.googleapis.com/v0/b/rn-coder-c0251.appspot.com/o/crypto.webp?alt=media&token=664fbb72-914a-49bf-ad64-7a9edbf0cd70"
+    },
+    {
+        "type": "Venta de Crypto",
+        "ammount": 800,
+        "date": "15/01/2024",
+        "img": "https://firebasestorage.googleapis.com/v0/b/rn-coder-c0251.appspot.com/o/crypto.webp?alt=media&token=664fbb72-914a-49bf-ad64-7a9edbf0cd70"
+    },
+    {
+        "type": "Deposito",
+        "ammount": 3500,
+        "date": "10/03/2024",
+        "img": "https://firebasestorage.googleapis.com/v0/b/rn-coder-c0251.appspot.com/o/bandera.webp?alt=media&token=39f5a0e8-3960-4b5d-8e61-4da49d2cac36"
+    },
+    {
+        "type": "Retiro",
+        "ammount": 800,
+        "date": "05/02/2024",
+        "img": "https://firebasestorage.googleapis.com/v0/b/rn-coder-c0251.appspot.com/o/bandera.webp?alt=media&token=39f5a0e8-3960-4b5d-8e61-4da49d2cac36"
+    },
+    {
+        "type": "Compra de Crypto",
+        "ammount": 600,
+        "date": "20/04/2024",
+        "img": "https://firebasestorage.googleapis.com/v0/b/rn-coder-c0251.appspot.com/o/crypto.webp?alt=media&token=664fbb72-914a-49bf-ad64-7a9edbf0cd70"
+    },
+    {
+        "type": "Venta de Crypto",
+        "ammount": 200,
+        "date": "05/01/2024",
+        "img": "https://firebasestorage.googleapis.com/v0/b/rn-coder-c0251.appspot.com/o/crypto.webp?alt=media&token=664fbb72-914a-49bf-ad64-7a9edbf0cd70"
+    },
+    {
+        "type": "Deposito",
+        "ammount": 4000,
+        "date": "17/03/2024",
+        "img": "https://firebasestorage.googleapis.com/v0/b/rn-coder-c0251.appspot.com/o/bandera.webp?alt=media&token=39f5a0e8-3960-4b5d-8e61-4da49d2cac36"
+    },
+    {
+        "type": "Retiro",
+        "ammount": 1200,
+        "date": "02/02/2024",
+        "img": "https://firebasestorage.googleapis.com/v0/b/rn-coder-c0251.appspot.com/o/bandera.webp?alt=media&token=39f5a0e8-3960-4b5d-8e61-4da49d2cac36"
+    },
+    {
+        "type": "Compra de Crypto",
+        "ammount": 900,
+        "date": "10/04/2024",
+        "img": "https://firebasestorage.googleapis.com/v0/b/rn-coder-c0251.appspot.com/o/crypto.webp?alt=media&token=664fbb72-914a-49bf-ad64-7a9edbf0cd70"
+    },
+    {
+        "type": "Venta de Crypto",
+        "ammount": 100,
+        "date": "10/01/2024",
+        "img": "https://firebasestorage.googleapis.com/v0/b/rn-coder-c0251.appspot.com/o/crypto.webp?alt=media&token=664fbb72-914a-49bf-ad64-7a9edbf0cd70"
+    },
+    {
+        "type": "Deposito",
+        "ammount": 6000,
+        "date": "25/03/2024",
+        "img": "https://firebasestorage.googleapis.com/v0/b/rn-coder-c0251.appspot.com/o/bandera.webp?alt=media&token=39f5a0e8-3960-4b5d-8e61-4da49d2cac36"
+    },
+    {
+        "type": "Retiro",
+        "ammount": 300,
+        "date": "14/02/2024",
+        "img": "https://firebasestorage.googleapis.com/v0/b/rn-coder-c0251.appspot.com/o/bandera.webp?alt=media&token=39f5a0e8-3960-4b5d-8e61-4da49d2cac36"
+    },
+    {
+        "type": "Compra de Crypto",
+        "ammount": 1500,
+        "date": "05/04/2024",
+        "img": "https://firebasestorage.googleapis.com/v0/b/rn-coder-c0251.appspot.com/o/crypto.webp?alt=media&token=664fbb72-914a-49bf-ad64-7a9edbf0cd70"
+    },
+    {
+        "type": "Venta de Crypto",
+        "ammount": 500,
+        "date": "25/01/2024",
+        "img": "https://firebasestorage.googleapis.com/v0/b/rn-coder-c0251.appspot.com/o/crypto.webp?alt=media&token=664fbb72-914a-49bf-ad64-7a9edbf0cd70"
+    },
+    {
+        "type": "Deposito",
+        "ammount": 5500,
+        "date": "05/03/2024",
+        "img": "https://firebasestorage.googleapis.com/v0/b/rn-coder-c0251.appspot.com/o/bandera.webp?alt=media&token=39f5a0e8-3960-4b5d-8e61-4da49d2cac36"
+    },
+    {
+        "type": "Retiro",
+        "ammount": 700,
+        "date": "23/02/2024",
+        "img": "https://firebasestorage.googleapis.com/v0/b/rn-coder-c0251.appspot.com/o/bandera.webp?alt=media&token=39f5a0e8-3960-4b5d-8e61-4da49d2cac36"
+    }
+]

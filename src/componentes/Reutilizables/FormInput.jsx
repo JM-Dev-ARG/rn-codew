@@ -5,20 +5,23 @@ import { TextInput } from 'react-native-paper'
 
 
 
-const FormInput = ({ placeholder, setValueProp, mode }) => {
+const FormInput = ({ placeholder, setValueProp, mode, error, inputValue, type }) => {
     return (
         <View>
             <TextInput
+
                 style={styles.input}
                 mode='outlined'
                 label={placeholder}
                 onChangeText={setValueProp}
-                selectionColor={theme.colors['primary-200']}
-                activeOutlineColor={theme.colors['primary-200']}
+                selectionColor={theme.colors['accent-100']}
+                activeOutlineColor={error ? 'red' : theme.colors['primary-200']}
                 secureTextEntry={mode}
                 textColor={theme.colors['primary-200']}
                 outlineColor={theme.colors['accent-200']}
-
+                value={inputValue}
+                textContentType='none'
+                inputMode={type}
 
             />
 

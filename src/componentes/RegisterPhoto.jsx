@@ -7,7 +7,7 @@ import { Pressable, StyleSheet, View } from 'react-native';
 
 
 
-export default function RegisterPhoto() {
+const RegisterPhoto = () => {
     /*  const [nombre, setNombre] = useState("");
      const [apellido, setApellido] = useState("");
      const [password, setPassword] = useState("");
@@ -17,8 +17,9 @@ export default function RegisterPhoto() {
     /* const [foto, setFoto] = useState(""); */
 
     return (
-        <FormAcces greating='Tomate una foto' text2="Finalizar " >
+        <FormAcces greating='Tomate una foto'/*  btnText="Finalizar" */ >
             <View style={styles.container}>
+
                 <Pressable onPress={() => { alert("hola") }}>
                     <MaterialIcons name="camera" size={200} color={theme.textColors['text-200']} />
                 </Pressable>
@@ -28,6 +29,8 @@ export default function RegisterPhoto() {
         </FormAcces>
     )
 }
+
+export default RegisterPhoto
 
 const styles = StyleSheet.create({
     container: {

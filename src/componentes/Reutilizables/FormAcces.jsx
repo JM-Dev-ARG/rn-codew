@@ -1,11 +1,13 @@
-import { Image, StyleSheet, Text, View } from 'react-native'
+import { Image, Pressable, StyleSheet, Text, View } from 'react-native'
 import React, { useState } from 'react'
 /* import FormInput from './Reutilizables/FormInput' */
 import theme from '../../theme';
 import { AntDesign } from '@expo/vector-icons';
 
 
-export default function FormAcces({ greating, text1, text2, text1Redirect, text2Redirect, children }) {
+const FormAcces = ({ greating, text1, text2, text1Redirect, text2Redirect, children, btnText, btnRedirect, navigator }) => {
+
+
     return (
         <View style={styles.container}>
             <View style={styles.logo}>
@@ -19,25 +21,38 @@ export default function FormAcces({ greating, text1, text2, text1Redirect, text2
             </View>
             <View style={styles.formInputs}>
                 {children}
+                {/* {btnText ? <Pressable style={styles.btn} onPress={() => navigator.navigate(`${btnRedirect}`)}>
+                    <Text style={styles.btnText}>
+                        {btnText}
+                    </Text>
+                </Pressable> : ""} */}
             </View>
+
             <View style={styles.bottom}>
-                <Text style={styles.text}>
-                    {text1}
-                </Text>
-                <Text style={text2 === 'Registrate' ? styles.text2 : styles.text3}>
-                    {text2} {text2 === 'Registrate' ? "" : < AntDesign name="forward" size={14} color={theme.textColors['text-200']} />}
-                </Text>
+                <Pressable onPress={() => navigator.navigate(`${text1Redirect}`)}>
+                    <Text style={styles.text}>
+                        {text1}
+                    </Text>
+                </Pressable>
+
+                <Pressable onPress={() => navigator.navigate(`${text2Redirect}`)}>
+                    <Text style={text2 === 'Registrate' ? styles.text2 : styles.text3}>
+                        {text2} {text2 === 'Registrate' || text2 === undefined ? "" : < AntDesign name="forward" size={14} color={theme.textColors['text-200']} />}
+                    </Text>
+                </Pressable>
+
             </View>
 
         </View>
     )
 }
+export default FormAcces
 
 const styles = StyleSheet.create({
     container: {
         justifyContent: 'center',
         alignContent: 'center',
-        backgroundColor: theme.bgColors['bg-100'],
+        backgroundColor: '#0E0D0D',
 
         flex: 1,
         width: '100%',
@@ -94,6 +109,21 @@ const styles = StyleSheet.create({
         fontFamily: "UbuntuBold",
         color: theme.textColors['text-200'],
     },
+    btn: {
+        backgroundColor: theme.colors['primary-200'],
+        width: 'auto',
+        paddingVertical: 10,
+        borderRadius: 20,
+        alignSelf: 'center',
+        alignItems: 'center',
+        justifyContent: 'center',
+    },
+    btnText: {
+        color: theme.textColors['text-100'],
+        fontFamily: "UbuntuBold",
+        marginHorizontal: 20,
+
+    }
 
 
 })

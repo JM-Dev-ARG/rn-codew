@@ -43,12 +43,11 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: theme.bgColors['bg-100'],
+    backgroundColor: '#0E0D0D',
     alignItems: 'center',
     justifyContent: 'center',
-    marginTop: Platform.OS === 'android' ? (StatusBar.currentHeight) & (StatusBar.setBackgroundColor(theme.bgColors['bg-100'])) : 0,
-    backgroundColor: Platform.OS === 'android' ? (StatusBar.setBackgroundColor(theme.bgColors['bg-100'])) : "",
-    fontFamily: 'Fuzzy',
+    marginTop: Platform.OS === 'android' ? (StatusBar.currentHeight) : 0,
+    backgroundColor: Platform.OS === 'android' ? (StatusBar.setBackgroundColor('#0E0D0D')) : "",
 
   },
 

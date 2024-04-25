@@ -16,6 +16,7 @@ export default function Main() {
 
         <SafeAreaView style={styles.container}>
             <Navigation />
+            {/* <Login /> */}
         </SafeAreaView>
     )
 }

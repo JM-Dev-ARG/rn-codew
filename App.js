@@ -4,6 +4,8 @@ import Main from './src/Main';
 import { useFonts } from 'expo-font';
 import { useCallback } from 'react';
 import * as SplashScreen from 'expo-splash-screen';
+import Navigation from './src/Navigation/Navigation';
+import { BottomTabBar } from '@react-navigation/bottom-tabs';
 
 
 export default function App() {
@@ -28,7 +30,7 @@ export default function App() {
 
   return (
     <SafeAreaView style={styles.container} onLayout={onLayoutRootView}>
-      <Main style={styles.main} />
+      <Navigation />
     </SafeAreaView>
 
   );
@@ -38,9 +40,8 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: theme.bgColors['bg-100'],
-    alignItems: 'center',
-    justifyContent: 'center',
-    marginTop: Platform.OS === 'android' ? (StatusBar.currentHeight) & (StatusBar.setBackgroundColor(theme.bgColors['bg-100'])) : 0,
-    backgroundColor: Platform.OS === 'android' ? (StatusBar.setBackgroundColor(theme.bgColors['bg-100'])) : "",
+    marginTop: Platform.OS === 'android' ? (StatusBar.currentHeight) : 0,
+    backgroundColor: Platform.OS === 'android' ? (StatusBar.setBackgroundColor("#0E0D0D")) : "",
+    color: Platform.OS === 'android' ? (StatusBar.setBarStyle("light-content", true)) : ""
   }
 })
