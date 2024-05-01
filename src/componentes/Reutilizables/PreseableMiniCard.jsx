@@ -10,7 +10,7 @@ const PreseableMiniCard = ({ icon, texto, route }) => {
         <Pressable style={styles.container} onPress={() => navigation.navigate({ route })}>
             <View style={styles.iconContainer}>
                 <View style={styles.icon}>
-                    <Feather name={icon} size={40} color={theme.bgColors['bg-100']} />
+                    <Feather name={icon} size={40} color={theme.colors['primary-200']} />
                 </View>
             </View>
 
@@ -47,8 +47,7 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
         borderRadius: 50,
-        borderWidth: 1,
-        backgroundColor: theme.colors['primary-100']
+        backgroundColor: theme.bgColors['bg-100']
 
     },
     texto: {

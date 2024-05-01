@@ -3,14 +3,12 @@ import React from 'react'
 import Card from './Reutilizables/Card'
 import theme from '../theme'
 import MovementItem from './Reutilizables/MovementItem'
-import data from '../data/MovementsDataMock.json'
 import { Feather } from '@expo/vector-icons';
 
 
 
-const Movements = ({ visualize, navigator }) => {
+const Movements = ({ visualize, navigator, data }) => {
     const filteredData = data.slice(0, 3);
-
 
     return (
         <Card>
@@ -48,7 +46,8 @@ const styles = StyleSheet.create({
         color: theme.colors['accent-200'],
         marginTop: 10,
         marginBottom: 10,
-        alignSelf: "flex-start"
+        alignSelf: "flex-start",
+        paddingHorizontal: 10
     },
     listItems: {
         flexGrow: 0

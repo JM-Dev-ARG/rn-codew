@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react'
 import FormInput from './Reutilizables/FormInput'
 import FormAcces from './Reutilizables/FormAcces';
-import { Pressable, StyleSheet, Text, View } from 'react-native';
+import { Pressable, StyleSheet, Text } from 'react-native';
 import { login } from '../functions/autentication';
 import theme from '../theme';
 

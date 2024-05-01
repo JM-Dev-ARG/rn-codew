@@ -1,28 +1,28 @@
 import { Pressable, StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 import Btn from './Reutilizables/Btn'
-import Avatar from './Reutilizables/Avatar'
 import { Ionicons } from '@expo/vector-icons';
 import theme from '../theme';
 import Card from './Reutilizables/Card';
+import InfoBalance from './Reutilizables/InfoBalance';
 
 
 
-const CardBalance = ({ visualize, setVisualize }) => {
-
+const CardBalance = ({ visualize, setVisualize, userData }) => {
     return (
         <Card>
             <View style={styles.cardBtns}>
-                <Text style={styles.balance}>Balance</Text>
-                <Pressable onPress={() => setVisualize(!visualize)}>{visualize ? <Ionicons name="eye-outline" size={24} color={theme.colors['primary-100']} /> : <Ionicons name="eye-off-outline" size={24} color={theme.colors['primary-100']} />}
-                </Pressable>
+                <View style={styles.cardTitle}>
+                    <Text style={styles.balance}>Balance Total</Text>
+                    <Pressable onPress={() => setVisualize(!visualize)}>{visualize ? <Ionicons name="eye-outline" size={24} color={theme.colors['primary-100']} /> : <Ionicons name="eye-off-outline" size={24} color={theme.colors['primary-100']} />}
+                    </Pressable>
+                </View>
+
 
             </View>
-            <View style={styles.cardInfo}>
-                <Avatar width={60} height={60} />
-                <Text style={styles.cardValue}>{visualize ? 2000 :
-                    "*****"} <Text style={styles.cardCoin}>ARS</Text></Text>
-            </View>
+            <InfoBalance visualize={visualize} amount={userData.balance[0].amount} coin={"ARS"} />
+
+
             <View style={styles.cardBtns}>
                 <Btn btnText={"Depositar"} onPress={() => { alert("hola") }} />
                 <Btn btnText={"Enviar"} onPress={() => { alert("hola") }} />
@@ -38,25 +38,17 @@ const styles = StyleSheet.create({
     cardBtns: {
         width: '100%',
         flexDirection: 'row',
-        justifyContent: 'space-around',
+        justifyContent: 'space-between',
         alignItems: 'center',
     },
-    cardInfo: {
+    cardTitle: {
         flexDirection: 'row',
-        justifyContent: 'flex-start',
+        justifyContent: 'space-between',
         alignItems: 'center',
-        gap: 10,
-        width: '90%'
+        width: '100%',
+        paddingHorizontal: 10,
     },
-    cardValue: {
-        color: theme.textColors['text-200'],
-        fontSize: 30,
-        fontFamily: 'UbuntuBold'
-    },
-    cardCoin: {
-        fontSize: 15,
-        fontFamily: 'Ubuntu'
-    },
+
     balance: {
         fontSize: 15,
         fontFamily: 'UbuntuBold',

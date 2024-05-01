@@ -12,7 +12,7 @@ import Dashboard from '../componentes/Dashboard';
 import Profile from '../componentes/Profile';
 import Market from '../componentes/Market';
 import DebitCard from '../componentes/DebitCard';
-import { StyleSheet } from 'react-native'
+import { StyleSheet, Text, View } from 'react-native'
 
 
 const Tab = createBottomTabNavigator();
@@ -32,32 +32,45 @@ function DashboarTabdNav() {
 
             <Tab.Screen name="Dashboard" component={Dashboard} options={{
                 tabBarIcon: ({ focused }) => {
-                    return <Feather name="home" size={24}
-                        color={focused ? theme.colors['primary-100'] : theme.colors['accent-200']} />
+                    return <View style={styles.tabIconContainer}>
+                        <Feather name="home" size={20}
+                            color={focused ? theme.colors['primary-100'] : theme.colors['accent-200']} />
+                        <Text style={focused ? styles.tabTextActive : styles.tabTextInactive}>Inicio</Text>
+                    </View>
+
                 }
             }}
             />
 
             <Tab.Screen name="Perfil" component={Profile} options={{
                 tabBarIcon: ({ focused }) => {
-                    return <Feather name="user" size={24}
-                        color={focused ? theme.colors['primary-100'] : theme.colors['accent-200']} />
+                    return <View style={styles.tabIconContainer}>
+                        <Feather name="user" size={20}
+                            color={focused ? theme.colors['primary-100'] : theme.colors['accent-200']} />
+                        <Text style={focused ? styles.tabTextActive : styles.tabTextInactive}>Profile</Text>
+                    </View>
                 }
             }}
             />
 
             <Tab.Screen name="Mercado" component={Market} options={{
                 tabBarIcon: ({ focused }) => {
-                    return <Feather name="trending-up" size={24}
-                        color={focused ? theme.colors['primary-100'] : theme.colors['accent-200']} />
+                    return <View style={styles.tabIconContainer}>
+                        <Feather name="trending-up" size={20}
+                            color={focused ? theme.colors['primary-100'] : theme.colors['accent-200']} />
+                        <Text style={focused ? styles.tabTextActive : styles.tabTextInactive}>Mercado</Text>
+                    </View>
                 }
             }}
             />
 
             <Tab.Screen name="Tarjeta" component={DebitCard} options={{
                 tabBarIcon: ({ focused }) => {
-                    return <Feather name="credit-card" size={24}
-                        color={focused ? theme.colors['primary-100'] : theme.colors['accent-200']} />
+                    return <View style={styles.tabIconContainer}>
+                        <Feather name="credit-card" size={20}
+                            color={focused ? theme.colors['primary-100'] : theme.colors['accent-200']} />
+                        <Text style={focused ? styles.tabTextActive : styles.tabTextInactive}>Tarjeta</Text>
+                    </View>
                 }
             }}
             />
@@ -111,7 +124,22 @@ const styles = StyleSheet.create({
     tabBar: {
         backgroundColor: theme.bgColors['bg-100'],
         borderTopColor: theme.colors['primary-100'],
-        height: 50
+        height: 50,
     },
+    tabIconContainer: {
+        alignItems: 'center',
+    },
+    tabTextActive: {
+        alignSelf: 'center',
+        fontSize: 12,
+        fontFamily: 'Ubuntu',
+        color: theme.colors['primary-100']
+    },
+    tabTextInactive: {
+        alignSelf: 'center',
+        fontSize: 12,
+        fontFamily: 'Ubuntu',
+        color: theme.colors['accent-200']
+    }
 
 })

@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "title": "15% off en celulares",
+        "icon": "https://firebasestorage.googleapis.com/v0/b/rn-coder-c0251.appspot.com/o/cell.webp?alt=media&token=9e6885bb-4156-4167-bbad-b2fa068909cb",
+        "img": "https://firebasestorage.googleapis.com/v0/b/rn-coder-c0251.appspot.com/o/ImgCell.webp?alt=media&token=de6c7138-bf53-4eac-8616-e874a719142c",
+        "text": "Que opinas de meter un cambio de celular?? Elegi uno de los 7 modelos seleccionados, paga con tu tarjeta Code:W y ademas de ahorrarte unos pesitos te llevas BTC en cashback :money_with_wings:!!",
+        "button": "Leer mas",
+        "link": "https://www.google.com"
+    },
+    {
+        "id": 2,
+        "title": "Paga en cuotas con tu Code:{W} card :credit_card:",
+        "icon": "",
+        "img": "",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "button": "Leer mas",
+        "link": "https://www.google.com"
+    },
+    {
+        "id": 3,
+        "title": "Asocia tus serviocios y gana premios",
+        "icon": "",
+        "img": "",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "button": "Leer mas",
+        "link": "https://www.google.com"
+    },
+    {
+        "id": 4,
+        "title": "Sumate a nuestra comunidad de Telegram",
+        "icon": "",
+        "img": "",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "button": "Leer mas",
+        "link": "https://www.google.com"
+    }
+]

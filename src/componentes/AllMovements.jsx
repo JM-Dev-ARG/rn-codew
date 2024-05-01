@@ -4,10 +4,9 @@ import { FlatList, Pressable, StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 import theme from '../theme';
 import { Feather } from '@expo/vector-icons';
-import data from '../data/MovementsDataMock.json'
 import MovementItem from './Reutilizables/MovementItem';
 
-const AllMovements = ({ visualize }) => {
+const AllMovements = ({ data }) => {
     const navigation = useNavigation();
 
     return (

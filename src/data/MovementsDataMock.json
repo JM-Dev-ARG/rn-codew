@@ -6,10 +6,10 @@
         "img": "https://firebasestorage.googleapis.com/v0/b/rn-coder-c0251.appspot.com/o/bandera.webp?alt=media&token=39f5a0e8-3960-4b5d-8e61-4da49d2cac36"
     },
     {
-        "type": "Retiro",
+        "type": "Pago con tarjeta",
         "ammount": 1500,
         "date": "12/02/2024",
-        "img": "https://firebasestorage.googleapis.com/v0/b/rn-coder-c0251.appspot.com/o/bandera.webp?alt=media&token=39f5a0e8-3960-4b5d-8e61-4da49d2cac36"
+        "img": "https://firebasestorage.googleapis.com/v0/b/rn-coder-c0251.appspot.com/o/tarjeta.webp?alt=media&token=f7489e34-8fa1-405b-91c5-65bca0112f1e"
     },
     {
         "type": "Compra de Crypto",
